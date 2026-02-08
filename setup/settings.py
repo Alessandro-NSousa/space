@@ -120,6 +120,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+# configuração do caminho para os arquivos estáticos do projeto
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'setup/static')
 ]
